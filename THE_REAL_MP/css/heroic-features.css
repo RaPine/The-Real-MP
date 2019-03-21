@@ -3,6 +3,32 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
  */
-body {
-  padding-top: 56px;
-}
+ body {
+   padding-top: 56px;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+ }
+ #jumbotron my-4 {
+   background-image: url('http://www.wallpaperbetter.com/wallpaper/210/346/502/wheat-field-clouds-hd-1080P-wallpaper.jpg');
+ }
+ h1{
+   text-align: center;
+   font-family: georgia;
+ }
+
+ p{
+   text-align: center;
+   font-family: georgia;
+ }
+ #navbarBrand {
+   font-family: georgia;
+ }
+ #navbarResponsive {
+     cursor:pointer;
+     font-family: georgia;
+ }
+ #columnMP {
+   color: white;
+   background-color: #232523;
+ }
